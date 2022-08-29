@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow:auto;    
+  }
+
+.container{
+    max-width: 100%;
+    max-height: 100vh;
+    background: #f3f8ff;
+}
+
+h1{
+    max-width: 100%;
+
+    padding:1rem;
+    display: block;
+    margin-bottom:20px;
+}
+
+img{
+    display:block;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size:20px;
+}
+
+::placeholder{
+    text-align:center;
+    font-size:20px;
+}
+
+h2{
+    overflow: visible;
+    font-size:3rem;
+    margin-top: 0;
+    margin-bottom:30px;
+}
+
+.outContainer{
+    margin-right: 20px;
+    float:right;
+    text-align:center;
+    display:block;
+    flex-direction: column;
+    max-width: 50%;
+    max-height: 50%;
+    
+}
+
+.caixaContainer {
+    overflow: visible;
+    display:block;
+    width: 40%;
+    max-width: 100%;
+    font-size:2rem;
+    margin-top: 0;
+    height: 100vmin;
+    text-align: center;
+    background-color: rgb(245, 113, 6);
+    float: left;
+    padding:15vh;
+    max-height: 100%;
+    border-radius: 0rem 4rem 4rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formularioContainer{
+    overflow:visible;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input{
+    font-size:30px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    display:block;
+    padding:10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button{
+    margin: 20px;
+    color: azure;
+    background-color: rgb(104, 50, 5);
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(68, 32, 3);
+}
+
+p{
+    
+    font-size:1.7rem;
+    margin-top:1rem;
+}
+
+@media screen and (max-width:1000px) {
+
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 40px;
+    }
+
+    .caixaContainer{
+        width:100%;
+        height: 100%;
+        border-radius: 3rem 3rem 0rem 0rem;
+    }
+
+    body {
+        margin:auto;
+        text-align:center;
+        float:none;
+    }
+
+    img{
+        margin:auto;
+        max-width: 500px;
+        height: 100%;
+        width: 100%; 
+        
+    }
+    .formularioContainer{
+        font-size:1rem;
+    }
+
+    .outContainer{
+        margin: auto;
+        float:none;
+        text-align:center;
+        display:block;
+        flex-direction: column;
+        max-width: 90%;
+        max-height: 100%;
+        margin-bottom: 30px;
+        
+    }
+    
+    .input{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    
+}
